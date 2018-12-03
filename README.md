@@ -1,6 +1,8 @@
 # OptionAnalysis
-Reguires Python3.7 because of dataclass
-Realtime quote data obtained from CBOE
+Requires Python3.7 because of my use of @dataclass
+Realtime quote data obtained from CBOE just update
+global variable g_csvfile in OptionSkew.py with the 
+name of the file you download from CBOE
 http://www.cboe.com/delayedquote/quote-table-download
 
 
