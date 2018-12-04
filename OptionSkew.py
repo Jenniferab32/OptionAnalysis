@@ -100,7 +100,7 @@ class CBOEFormater:
      return cls.getUnderlying(f), cls.getCalls(df), cls.getPuts(df)
 
 expiration = input("Expiration Date (mm/dd/yyyy): ")
-underlying, calls, puts = CBOEFormater.loadOptionChain('msft1130.csv')
+underlying, calls, puts = CBOEFormater.loadOptionChain(g_csvfile)
 
 call = calls[(calls['Expiration Date']==expiration)]             
 put  = puts[(calls['Expiration Date']==expiration)] 
